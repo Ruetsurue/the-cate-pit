@@ -8,6 +8,7 @@ Your momma raised you right.
 As Doge Gode once said:
 > Doge Gode is *disgusted* by Cate. And it's your damn job to bork 'em outta here.
 
+But remember. Not all Cate r bad.
 
 ##Status:
 WIP at the moment. Moving what I got to a repo to prevent progress loss.
