@@ -6,11 +6,12 @@ Work your way out of the pit full of Cate, being the mighty Doge that ain't afra
 Your momma raised you right.
 
 As Doge Gode once said:
-> Doge Gode is *disgusted* by Cate. And it's your damn job to bork 'em outta here.
-
-But remember. Not all Cate r bad.
+> Doge Gode is *disgusted* by Cate. And it's your borking job to woof 'em outta here.
+> 
+> But remember. Not all Cate r bad.
 
 ##Status:
+
 WIP at the moment. Moving what I got to a repo to prevent progress loss.
 
 To Do & notes to self:
