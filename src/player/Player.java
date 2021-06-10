@@ -1,8 +1,8 @@
-package Player;
+package player;
 
-import Actions.PlayerActions.PlayerActions;
-import Enemies.Enemy;
-import TreasureItems.TreasureItem;
+import actions.player.PlayerActions;
+import enemies.Enemy;
+import treasureitems.TreasureItem;
 
 import java.util.ArrayList;
 import java.util.Locale;

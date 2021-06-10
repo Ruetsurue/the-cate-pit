@@ -1,4 +1,4 @@
-package Actions.PlayerActions;
+package actions.player;
 
 public interface PlayerActions {
 }

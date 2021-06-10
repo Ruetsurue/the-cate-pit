@@ -1,4 +1,4 @@
-package Enemies.Cate;
+package enemies.cate;
 
 public class FriendlyCate extends Cate{
 

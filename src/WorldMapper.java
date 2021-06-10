@@ -1,5 +1,5 @@
-import Enemies.Cate.*;
-import Enemies.Enemy;
+import enemies.cate.*;
+import enemies.Enemy;
 
 import java.util.ArrayList;
 import java.util.Random;

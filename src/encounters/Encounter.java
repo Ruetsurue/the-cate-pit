@@ -1,10 +1,10 @@
-package Encounters;
+package encounters;
 
-import Actions.PlayerActions.AggressiveActions;
-import Enemies.Enemy;
-import Player.Player;
-import TreasureItems.TreasureItem;
-import Misc.InputValidator;
+import actions.player.AggressiveActions;
+import enemies.Enemy;
+import player.Player;
+import treasureitems.TreasureItem;
+import misc.InputValidator;
 
 import java.util.Locale;
 import java.util.Scanner;

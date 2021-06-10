@@ -1,6 +1,6 @@
-package Misc;
+package misc;
 
-import Player.Player;
+import player.Player;
 
 import java.util.Locale;
 

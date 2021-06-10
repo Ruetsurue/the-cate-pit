@@ -1,7 +1,7 @@
-package Actions.PlayerActions;
+package actions.player;
 
-import Enemies.Enemy;
-import Player.Player;
+import enemies.Enemy;
+import player.Player;
 
 public class AggressiveActions implements PlayerActions {
 

@@ -1,4 +1,4 @@
-package Actions.EnemyActions;
+package actions.enemy;
 
 public class IntelligentActions {
 }

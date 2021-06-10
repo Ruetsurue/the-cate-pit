@@ -1,4 +1,4 @@
-package TreasureItems;
+package treasureitems;
 
 public abstract class TreasureItem {
 

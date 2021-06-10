@@ -16,7 +16,7 @@ WIP at the moment. Moving what I got to a repo to prevent progress loss.
 
 To Do & notes to self:
 * implement some actual player controls for battle and inventory management, lol. the game kinda plays itself as it is now.
-* reorganise Actions and Abilities. consider strategy pattern.
+* reorganise actions and Abilities. consider strategy pattern.
 * finish the Encounter concept (combines with p.1)
 * elaborate on the Agility stat. hit/miss/crit kinda thing
 * same as above for Intelligence stat. implement the riddles

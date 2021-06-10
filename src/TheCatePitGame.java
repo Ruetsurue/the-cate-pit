@@ -1,6 +1,6 @@
-import Encounters.Encounter;
-import Enemies.Enemy;
-import Player.Player;
+import encounters.Encounter;
+import enemies.Enemy;
+import player.Player;
 
 public class TheCatePitGame {
     public static void main(String[] args) {

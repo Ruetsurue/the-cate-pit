@@ -1,6 +1,6 @@
-package Enemies.Cate;
+package enemies.cate;
 
-import Enemies.Enemy;
+import enemies.Enemy;
 
 public abstract class Cate extends Enemy {
 

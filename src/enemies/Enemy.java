@@ -1,7 +1,7 @@
-package Enemies;
+package enemies;
 
-import Actions.EnemyActions.EnemyActions;
-import TreasureItems.*;
+import actions.enemy.EnemyActions;
+import treasureitems.*;
 
 import java.util.Random;
 

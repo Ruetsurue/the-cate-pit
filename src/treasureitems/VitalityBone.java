@@ -1,6 +1,6 @@
-package TreasureItems;
+package treasureitems;
 
-import Player.Player;
+import player.Player;
 
 public class VitalityBone extends TreasureItem{
 

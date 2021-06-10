@@ -1,6 +1,6 @@
-package Enemies.Cate;
+package enemies.cate;
 
-import Actions.EnemyActions.AggressiveActions;
+import actions.enemy.AggressiveActions;
 
 public class AggressiveCate extends Cate{
 
