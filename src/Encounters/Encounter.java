@@ -21,14 +21,16 @@ public class Encounter {
 
         switch(choice) {
             case 1:
-                //initiateAggressiveEncounter(player);
+                initiateAggressiveEncounter(player);
                 break;
         }
 
     }
 
     public void initiateAggressiveEncounter(Player player, Enemy enemy){
+        System.out.println("So you choose death, Cate. Or rather, I chose it for you.");
         player.setPlayerActions(new AggressiveActions());
+
     }
 
     public void showEncounterOptions(Player player) {

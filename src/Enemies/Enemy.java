@@ -70,4 +70,8 @@ public abstract class Enemy {
         }
     }
 
+    public void evadeAttack(int incomingAttackDamage) {
+
+    }
+
 }
