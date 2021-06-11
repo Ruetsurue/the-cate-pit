@@ -8,8 +8,11 @@ public class FriendlyCate extends Cate{
     }
 
     @Override
-    public void doAction() {
-        System.out.println("Cate gives you a gift! Much wow, such love");
+    public void greetPlayer() {
+
+        System.out.println("This Cate does not seek violence, o Doge.");
+        System.out.println("This Cate seeks but peace.");
+        System.out.println("Meow <3 :3");
     }
 
 }

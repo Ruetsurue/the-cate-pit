@@ -4,12 +4,14 @@ public class WiseCate extends Cate {
 
     public WiseCate(){
         setHp(10);
-        setEnemySubType("WISE");
+        setEnemySubType("SPHYNX");
     }
 
     @Override
-    public void doAction() {
-        System.out.println("Cate makes you a riddle! Very cunning, much intelligent");
+    public void greetPlayer() {
+        System.out.println("Behold'n'behave, silly young Doge! For I, the elder Cate Sphynx, got a test of wit for you.");
+        System.out.println("Should you answer my riddle correctly, I shall grant you passage of this chamber.");
+        System.out.println("Should you fail miserably, I shall call the Hellcat to fight you.");
     }
 
 }

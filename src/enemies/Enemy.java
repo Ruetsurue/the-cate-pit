@@ -1,6 +1,6 @@
 package enemies;
 
-import actions.enemy.EnemyActions;
+import misc.DiceRoller;
 import treasureitems.*;
 
 import java.util.Random;
@@ -12,14 +12,13 @@ public abstract class Enemy {
     protected String enemySubType;
     protected int hp;
     protected int attackDamage;
-    protected TreasureItem reward;
-    protected EnemyActions enemyActions;
+    protected TreasureItem setReward;
 
 
-    public abstract void doAction();
+    public abstract void greetPlayer();
 
     public Enemy() {
-        generateReward();
+        setReward(DiceRoller.generateReward());
     }
     public void setEnemyType(String enemyType) { this.enemyType = enemyType; }
     public void setEnemySubType(String enemySubType) { this.enemySubType = enemySubType; }
@@ -27,7 +26,7 @@ public abstract class Enemy {
         this.hp = hp;
     }
     public void setAttackDamage(int attackDamage) { this.attackDamage = attackDamage; }
-    public void setEnemyActions(EnemyActions enemyActions) { this.enemyActions = enemyActions; }
+    public void setReward(TreasureItem reward) { this.setReward = reward;}
 
     public String getEnemyType() { return enemyType; }
     public String getEnemySubType() { return this.enemySubType; }
@@ -46,32 +45,9 @@ public abstract class Enemy {
     }
 
     public TreasureItem dropReward() {
-        System.out.println(getEnemySubType() + " " + getEnemyType() + " has dropped " + reward.getTreasureType() + "!");
-        System.out.println("Item description: " + reward.getTreasureDescription());
-        return reward;
-    }
-
-    private void generateReward() {
-        int rewardTypeRoll = random.nextInt(4);
-
-        switch(rewardTypeRoll) {
-            case 0:
-                reward = new StrengthBone();
-                break;
-            case 1:
-                reward = new WisdomBone();
-                break;
-            case 2:
-                reward = new AgilityBone();
-                break;
-            case 3:
-                reward = new VitalityBone();
-                break;
-        }
-    }
-
-    public void evadeAttack(int incomingAttackDamage) {
-
+        System.out.println(getEnemySubType() + " " + getEnemyType() + " has dropped " + setReward.getTreasureType() + "!");
+        System.out.println("Item description: " + setReward.getTreasureDescription());
+        return setReward;
     }
 
 }

@@ -1,4 +1,3 @@
-import encounters.Encounter;
 import enemies.Enemy;
 import player.Player;
 
@@ -16,8 +15,6 @@ public class TheCatePitGame {
 
         for(Enemy enemy : worldMapper.getWorldMap()) {
 
-            Encounter encounter = new Encounter();
-            encounter.initiateEncounter(player, enemy);
 
 
         }

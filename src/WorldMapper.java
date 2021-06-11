@@ -43,7 +43,7 @@ public class WorldMapper {
     public void printWorldMap() {
         for(Enemy enemy : worldMap) {
             System.out.println(enemy.getEnemyType());
-            enemy.doAction();
+            enemy.greetPlayer();
         }
     }
 

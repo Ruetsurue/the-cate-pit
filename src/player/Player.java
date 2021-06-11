@@ -1,6 +1,5 @@
 package player;
 
-import actions.player.PlayerActions;
 import enemies.Enemy;
 import treasureitems.TreasureItem;
 
@@ -23,7 +22,6 @@ public class Player {
     private int intelligence;
     private int agility;
     private ArrayList<TreasureItem> inventory;
-    private PlayerActions playerActions;
 
     public Player() {
         this(5, 1, 1);
@@ -40,10 +38,6 @@ public class Player {
     public int getAttackDamage(){ return attackDamage; }
     public int getIntelligence(){ return intelligence; }
     public int getAgility(){ return agility; }
-
-    public void setPlayerActions(PlayerActions playerActions){
-        this.playerActions = playerActions;
-    }
 
     public void showPlayerStats() {
         System.out.println("-------------------------------");
